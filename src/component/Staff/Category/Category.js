@@ -10,10 +10,10 @@ const Category = () => {
                 </div>
                 <nav className="sidebar-menu">
                     <ul>
-                        <Link to='/'><li className="menu-item">Category</li></Link>
-                        <Link to='/Product'><li className="menu-item">Product</li></Link>
-                        <Link to='/Cart'><li className="menu-item">Cart</li></Link>
-                        <Link to='/Stats'><li className="menu-item">Stats</li></Link>
+                        <Link to='/' className='sidebar-menu'><li className="menu-item">Category</li></Link>
+                        <Link to='/Product' className='sidebar-menu'><li className="menu-item">Product</li></Link>
+                        <Link to='/Cart' className='sidebar-menu'><li className="menu-item">Cart</li></Link>
+                        <Link to='/Stats' className='sidebar-menu'><li className="menu-item">Stats</li></Link>
                     </ul>
                 </nav>
             </div>

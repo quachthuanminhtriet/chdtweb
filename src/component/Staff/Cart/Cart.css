@@ -19,6 +19,7 @@
 .sidebar-menu {
     list-style-type: none;
     padding: 0;
+    color: white;
 }
 
 .sidebar-menu li {
