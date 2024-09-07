@@ -1,0 +1,331 @@
+body,
+html {
+    background: #F5F5F5;
+}
+
+.max-width {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+.img-detail {
+    border-radius: 10px;
+    border: 2px solid #000;
+    background-image: linear-gradient(to top right, #caa7eb, #ffcccc, #ebeaea);
+}
+
+.some-img {
+    gap: 10px;
+}
+
+.some-img div {
+    width: 80px;
+}
+
+.img-container {
+    width: 40%;
+}
+
+.text-container {
+    width: 60%;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #03045E;
+}
+
+.content {
+    color: #03045E;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.select-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #03045E;
+    text-align: left;
+}
+
+.select-choice {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    width: 120px;
+}
+
+.select-choice.active {
+    border-color: #007bff;
+    background-color: #eee;
+}
+
+.select-choice-price-color {
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    width: 230px;
+}
+
+.discount {
+    border: 1px black solid;
+    border-radius: 10px;
+    background: lightgray;
+    align-items: center;
+    font-weight: bold;
+}
+
+.discount-price {
+    border: 1px red solid;
+    background: white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.discount-price .original {
+    font-size: 12px;
+    color: #535357;
+    text-decoration: line-through;
+}
+
+.discount-price .reduced {
+    color: #A60A0A;
+}
+
+.upcoming-discount {
+    text-align: center;
+}
+
+.upcoming-discount .price {
+    color: #03045E;
+}
+
+.upcoming-discount .content {
+    font-size: 12px;
+    color: #535357;
+}
+
+.buy-detail {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.buy {
+    border-radius: 10px;
+    background-color: #A60A0A;
+    color: white;
+    text-align: center;
+}
+
+.buy .title {
+    color: white;
+}
+
+.buy .detail {
+    font-size: 12px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    border: 1px #A60A0A solid;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.installment-detail {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.installment {
+    border-radius: 10px;
+    background-color: #03045E;
+    text-align: center;
+    margin: 0;
+}
+
+.installment .content {
+    margin: 8px;
+    color: white;
+}
+
+.installment .detail {
+    font-size: 12px;
+    color: white;
+}
+
+.visa-card {
+    border-radius: 10px;
+    background: #03045E;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.visa-card .content {
+    color: white;
+}
+
+.visa-card .detail {
+    font-size: 12px;
+    color: white;
+}
+
+.trade-in-sale {
+    margin: 10px;
+    align-items: center;
+    width: 93%;
+    color: white;
+    background: #DF8028;
+}
+
+.product-info {
+    padding: 20px;
+    border: 2px #03045E solid;
+    border-radius: 10px;
+}
+
+.product-info h2 {
+    text-align: center;
+    color: #03045E;
+    font-weight: bold;
+}
+
+.discount-list,
+.product-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.discount-list li,
+.product-info-list li {
+    margin-bottom: 10px;
+}
+
+/* Review.css */
+
+.review-container {
+    border: 2px solid #03045E;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #03045E;
+    font-weight: bold;
+}
+
+.rating {
+    text-align: center;
+    font-size: 20px;
+}
+
+.filter {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.filter Button {
+    padding: 5px 20px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 20px;
+    color: #535357;
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.review img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.see-more {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.see-more Button {
+    color: #03045E;
+    font-weight: bold;
+}
+
+.rate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rate h4 {
+    color: #03045E;
+}
+
+.rate Button {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #03045E;
+    font-weight: bold;
+    color: white;
+}
+
+.star-rating {
+    gap: 5px;
+    color: black;
+    align-items: center;
+}
+
+.review .comment {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: lightgray;
+}
+
+.comment-content {
+    margin-left: 30px;
+}
+
+.phone-specs {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #03045E;
+}
+
+.phone-specs h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #03045E;
+}
+
+.phone-specs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.phone-specs li {
+    margin-bottom: 5px;
+}
